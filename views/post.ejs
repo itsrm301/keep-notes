@@ -1,0 +1,27 @@
+<%- include('partials/header.ejs') -%>;
+
+<div class="container homecard">
+  <div class="row align-items-center justify-content-center">
+  
+    <% for(var i=0;i<title.length;i++){ %>
+      <div
+      class="card col-md-3 col-sm-1 m-4 maincard"
+      style="width: 18rem"
+      style="align-items: cetner"
+    >
+      <div class="card-body ">
+        <div class="posttitle"> <h5 class="card-title posttitle" style="font-family: 'Secular One', sans-serif;"><%= title[i] %></h5>  </div>
+        <p class="card-text posttext" style="font-family: 'Ubuntu Condensed', sans-serif;">
+       <%= postbody[i].substring(0,30)+"...." %>
+       <a href="/fullpost/<%= postbody.indexOf(postbody[i]) %>"  >Read More</a>
+        </p>
+        
+        <div>
+        <a href="/delete/<%= postbody.indexOf(postbody[i]) %>" id="deletebutton" style="float: left;"><img src="http://findicons.com/files/icons/77/icandy_junior_toolbar/128/delete.png" alt="delete" style="height: 40px;width: 40px;"></a>
+        <a href="/edit/<%= postbody.indexOf(postbody[i]) %>" id="editbutton"  style="float: right;"><img src="https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Text-Edit-icon.png" alt="edit" style="height: 40px;width: 40px;"></a>
+      </div>
+     </div> 
+    </div>
+    <%} %>
+  </div>
+</div>

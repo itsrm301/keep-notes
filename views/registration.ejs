@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONL VLOGS</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/styles.css">
+  </head>
+
+<body>
+  <div class="container">
+        <div class="header"><h1 class="resistrationheading">Registration From</h1>
+               <p>create an account</p>
+           </div>
+    
+   
+    <form  action="/register" method="post">
+      <div class="form-group">
+        <label for="fullname">User Name</label>
+        <input type="text" class="form-control"  name="name" id="fullname" placeholder="enter the full name" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password" required>
+      </div>
+      <!-- <div class="form-group">
+        <label for="number">Phone number</label>
+        <input type="number" class="form-control" name="number" id="number" placeholder="enter your phone number" required>
+      </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+     
+        <div class="form-group">
+          <label for="exampleInputPassword2">Confirm Password</label>
+          <input type="password" class="form-control" name="cpassword" id="exampleInputPassword2" placeholder="ConfirmPassword" required>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> -->
+         <div class="submitbtnofres">
+        <button type="submit" class="btn  btn-outline-primary">Submit</button>
+         <a href="login" class="btn btn-outline-secondary" >login</a>
+      </div>
+      </form>
+    </div>
+    </div>
+    
+    </html>
+</body>                                 
+                                   
+
+
+<%- include('partials/footer.ejs') -%>;       

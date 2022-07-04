@@ -1,0 +1,102 @@
+body{
+    padding: 0px;
+    margin: 0px;
+   background-color: rgb(73, 1, 49);
+
+}
+
+
+/* .signup{
+    background-color: #fff;
+    color:black;
+}
+.signup:hover{
+    background-color:rgb(94, 94, 253);
+} */
+.resistrationheading{
+
+    
+    text-align: center;
+}
+.resistrationform{
+    background-color:black;
+}
+
+.header{
+    width: 100%;
+    height: 100px ;
+    background-color: rgb(113, 113, 243);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.submitbtnofres{
+    align-items: center;
+    justify-content:  center;
+
+}
+
+/* css of the header page */
+.mainheader{
+   /* width: 100%; */
+   height:  150px;
+/* rgb(188, 196, 204); */
+   background-color: rgb(26, 60, 94);
+   color: white;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.homecard{
+    align-items: center;
+}
+/* css of footer */
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+/* css of post  */
+.posttitle{
+ 
+   color: rgb(56, 148, 253)
+}
+.posttext{
+    color: white;
+}
+.maincard{
+    background-color :black;
+}
+
+/* error page  */
+.errorpage{
+    background-color: white;
+}
+.errorhead{
+    background-color: rgb(65, 64, 64);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.errorcontain{
+    height: 80px;
+    background-color: rgb(219, 206, 206);
+    text-align: center;
+    border:1px solid 
+}
+
+.errortitle{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+.backimg:hover{
+  opacity:  0.8;
+}
+#deletebutton:hover{
+    opacity: 0.5;
+}
+#editbutton:hover{
+    opacity: 0.5;
+}

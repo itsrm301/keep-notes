@@ -1,0 +1,14 @@
+<%- include('partials/header.ejs') -%>;  
+<div class="container">
+<h1 style="color: white;">COMPOSE</h1>
+
+<form action="/edit/<%= postbody %>" method="POST">
+    <div class="form-group">
+    <label for="title" style="color: white;" >title</label>
+    <input type="text" class="form-control" name="posttitle" value="<%= title %>">
+    <label for="contain" style="color: white;">post</label>
+    <textarea  class="form-control" name="postbody" id="" cols="30" rows="10" ><%= postbody %></textarea>
+    <button type="submit" name="submit" class="btn btn-primary" style="color: rgb(238, 238, 238);">update</button>
+    </div>
+</form>
+</div>
